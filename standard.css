@@ -120,6 +120,7 @@ h4{
     display:flex;
     justify-content:center;
     text-align:center;
+    text-decoration: italic;
 }
 #contact{
     background-image: url("images/lake sunset2.jpg");
