@@ -30,6 +30,70 @@
     <h1>Contact</h1>
     <h4>Questions? Feel free to send a message!
     </br>If you like what you see, follow us on Facebook and Twitter!</h4>
+    <div class="container">
+      <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your name...">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Valid email address...">
+
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country" placeholder="Please select...">
+          <option value="United States">United States</option> 
+          <option value="Australia">Australia</option>
+          <option value="Canada">Canada</option>
+          <option value="China">China</option>
+          <option value="England">England</option>
+          <option value="France">France</option>
+          <option value="Germany">Germany</option>
+          <option value="Italy">Italy</option>
+          <option value="Japan">Japan</option>
+          <option value="Mexico">Mexico</option>
+          <option value="New Zealand">New Zealand</option>
+          <option value="Norway">Norway</option>
+          <option value="Scottland">Scottland</option>
+          <option value="Spain">Spain</option>
+          <option value="Sweden">Sweden</option>
+          <option value="Switzerland">Switzerland</option>
+          <option value="United Arab Emirates">United Arab Emirates</option>
+      <span class="yes">
+        <label type="state" id="state" name="state" placeholder="Please select...">
+          <option value="Alabama">Alabama</option>
+          <option value="California">California</option>
+          <option value="Florida">Florida</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Hawaii">Hawaii</option>
+          <option value="Illinois">Illinois</option>
+          <option value="Kansas">Kansas</option>
+          <option value="Maryland">Maryland</option>
+          <option value="Nebraska">Nebraska</option>
+          <option value="New York">New York</option>
+          <option value="North Carolina">North Carolina</option>
+          <option value="South Carolina">South Carolina</option>
+          <option value="Virginia">Virginia</option>
+          <option value="West Virgina">West Virginia</option>
+        </label>
+      </span>
+      <span class="no"></span>
+        <script>
+          var yesSpan = document.getElementsByClassName('yes')[0];
+          var noSpan = document.getElementsByClassName('no')[0];
+
+        if (myPreviouslyDefinedVariable == true) {
+          yesSpan.style.display = 'inline-block';
+}
+
+        else {
+          noSpan.style.display = 'inline-block';
+}
+        </script>
+      </form>
+    </div>
       <div>
         <a href="mailto:codysimpsonusa@gmail.com"><span></span><i class="fas fa-envelope"></i>Email</a>
         <a href="tel:402-343-4545"><span></span><i class="fas fa-phone"></i>402-343-4545</a>

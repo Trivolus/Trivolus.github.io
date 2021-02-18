@@ -124,6 +124,12 @@ h4{
 #contact{
     background-image: url("images/lake sunset2.jpg");
 }
+#contact > .yes{
+    display: inline-block;
+}
+#contact > .no{
+    display: none;
+}
 #contact > h1{
     text-align:center;
     align-items:center;
