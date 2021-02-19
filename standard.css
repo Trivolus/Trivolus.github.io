@@ -178,17 +178,12 @@ a{
     transform:scale(1.2);
 }
 #photo{
-    background-image: url("/images/clouds1.jpg");
-    opacity:.8;
+   background-color: beige;
 }
-/* The grid: Four equal columns that floats next to each other */
-#photo .column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    top:10em;
-    left:10em;
-  }
+.grid{
+    display:grid;
+    grid-template-columns: 50%, 50%;
+}
   #art{
       background-image:url("/images/consite1.jpg");
       opacity:.8;
