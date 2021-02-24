@@ -182,7 +182,7 @@ a{
 }
 .grid{
     display:grid;
-    grid-template-columns: 50%, 50%;
+    grid-template-columns: 15%, 65%, 20%;
 }
   #art{
       background-image:url("/images/consite1.jpg");
